@@ -1,8 +1,0 @@
-[2019-10-02 20:32:55.415] [sharedprocess] [info] main {"machineId":"6c4a19976c158ae3ba04ecea20d11aaa1cea4dee634475fac32e557121a82a6b"}
-[2019-10-02 20:33:25.591] [sharedprocess] [info] Installing extension: mauve.terraform
-[2019-10-02 20:33:26.755] [sharedprocess] [info] Downloaded extension: mauve.terraform /tmp/1d323923-7c0c-4e31-a90e-456d40b15d53
-[2019-10-02 20:33:32.303] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.mauve.terraform-1.4.0: mauve.terraform
-[2019-10-02 20:33:32.305] [sharedprocess] [info] Renamed to /root/.vscode/extensions/mauve.terraform-1.4.0
-[2019-10-02 20:33:32.308] [sharedprocess] [info] Installation completed. mauve.terraform
-[2019-10-02 20:33:32.323] [sharedprocess] [info] Extensions installed successfully: mauve.terraform
-[2019-10-02 20:33:35.361] [sharedprocess] [info] Starting to clean up unused language packs.
