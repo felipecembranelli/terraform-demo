@@ -31,7 +31,7 @@ variable "machine_type" {
 
 variable "disk_size_gb" {
   description = "The VMs disk size in gigabytes."
-  default     = 200
+  default     = 300
 }
 
 variable "disk_type" {
