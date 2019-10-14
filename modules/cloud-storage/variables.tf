@@ -16,6 +16,7 @@
 
 variable "project_id" {
   description = "The project ID to deploy to"
+  default = "mlb-local"
 }
 
 variable "service_account" {

@@ -5,7 +5,7 @@ variable "project_id" {
 
 variable "app_name" {
   description = "The name of the application that will be deployed into the VMs. Used to identify the created resources."
-  default = "demovm1"
+  default = "demovm2"
 }
 
 variable "environment" {
@@ -13,9 +13,14 @@ variable "environment" {
   default = "test"
 }
 
+variable "service_account" {
+  description = "service account used."
+  default = "767754503635-compute@developer.gserviceaccount.com"
+}
+
 variable "business_unit" {
   description = "Business unit that the VMs belongs to"
-  default = "bu1"
+  default = "bu2"
 }
 
 variable "machine_type" {
@@ -25,7 +30,7 @@ variable "machine_type" {
 
 variable "disk_size_gb" {
   description = "The VMs disk size in gigabytes."
-  default     = 300
+  default     = 200
 }
 
 variable "disk_type" {

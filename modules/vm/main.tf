@@ -11,7 +11,7 @@ locals {
   environment     = lower(trimspace(var.environment))
   business_unit   = lower(trimspace(var.business_unit))
   #service_account = "${local.application_layer}@${local.project_id}.iam.gserviceaccount.com"
-  service_account = "767754503635-compute@developer.gserviceaccount.com"
+  service_account = lower(trimspace(var.service_account))
 
   # Application parameters
   application_layer       = lower(trimspace(var.application_layer))
